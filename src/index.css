@@ -90,6 +90,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
 }
 
 @keyframes float {
