@@ -1,12 +1,12 @@
-import { Monitor, Code, Wrench, Cpu, ShieldCheck, Headphones } from "lucide-react";
+import { Wrench, Hammer, HardHat, Zap, PaintBucket, Truck } from "lucide-react";
 
 const services = [
-  { icon: Monitor, title: "Electronics Sales", desc: "Laptops, desktops, smartphones, tablets, and accessories from top brands at competitive prices." },
-  { icon: Code, title: "Software Solutions", desc: "Licensed software, custom installations, and enterprise solutions tailored to your business." },
-  { icon: Wrench, title: "Repair & Maintenance", desc: "Expert diagnostics and repair for all electronics. Fast turnaround with quality guarantees." },
-  { icon: Cpu, title: "IT Infrastructure", desc: "Network setup, server installation, and complete IT infrastructure for businesses of all sizes." },
-  { icon: ShieldCheck, title: "Security Systems", desc: "CCTV, access control, and alarm systems. Protect what matters most with cutting-edge tech." },
-  { icon: Headphones, title: "Tech Support", desc: "24/7 technical support and consultation. We're always here when you need us." },
+  { icon: Wrench, title: "Power Tools", desc: "Drills, grinders, saws, and sanders from top brands. Built tough for professional and home use." },
+  { icon: Hammer, title: "Hand Tools", desc: "Hammers, wrenches, pliers, screwdrivers, and more. Premium quality tools that last a lifetime." },
+  { icon: HardHat, title: "Safety Equipment", desc: "Helmets, gloves, goggles, boots, and protective gear. Keep your team safe on every job site." },
+  { icon: Zap, title: "Electrical Supplies", desc: "Wiring, switches, panels, and electrical accessories for residential and commercial projects." },
+  { icon: PaintBucket, title: "Paint & Finishes", desc: "Interior and exterior paints, brushes, rollers, and finishing supplies for perfect results." },
+  { icon: Truck, title: "Delivery Service", desc: "Fast and reliable delivery across Kigali. Bulk orders? We bring the tools right to your site." },
 ];
 
 const ServicesSection = () => (
@@ -14,8 +14,8 @@ const ServicesSection = () => (
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">
         <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">What We Offer</p>
-        <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">Comprehensive electronics and software solutions under one roof.</p>
+        <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Our Products & Services</h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto">Everything you need for construction, renovation, and maintenance — all under one roof.</p>
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

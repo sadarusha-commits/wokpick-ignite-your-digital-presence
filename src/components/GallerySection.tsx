@@ -6,29 +6,26 @@ import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
 
 const images = [
-  { src: gallery1, alt: "Circuit board close-up" },
-  { src: gallery2, alt: "Tech workspace setup" },
-  { src: gallery3, alt: "Server room" },
-  { src: gallery4, alt: "Electronics repair" },
-  { src: gallery5, alt: "Network infrastructure" },
-  { src: gallery6, alt: "Electronics showroom" },
+  { src: gallery1, alt: "Power drills and accessories" },
+  { src: gallery2, alt: "Organized tool wall display" },
+  { src: gallery3, alt: "Safety equipment and toolbox" },
+  { src: gallery4, alt: "Professional installation work" },
+  { src: gallery5, alt: "Hardware fasteners and supplies" },
+  { src: gallery6, alt: "IMARA Tools store interior" },
 ];
 
 const GallerySection = () => (
   <section id="gallery" className="py-20 md:py-28">
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">
-        <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">Our Work</p>
+        <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">Our Products</p>
         <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">Gallery</h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto">A glimpse into our world of electronics and technology.</p>
+        <p className="text-muted-foreground max-w-2xl mx-auto">A glimpse into our world of quality tools and hardware.</p>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((img, i) => (
-          <div
-            key={i}
-            className="relative group overflow-hidden rounded-2xl border border-border"
-          >
+          <div key={i} className="relative group overflow-hidden rounded-2xl border border-border">
             <img
               src={img.src}
               alt={img.alt}
