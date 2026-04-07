@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, MapPin, Phone, Mail } from "lucide-react";
+import { Send, MapPin, Phone } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-16">
       <div className="absolute inset-0">
-        <img src={heroBg} alt="WOKPICK Electronics" width={1920} height={1080} className="w-full h-full object-cover" />
+        <img src={heroBg} alt="IMARA Tools Hardware Store" width={1920} height={1080} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-background/85" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent" />
       </div>
@@ -25,21 +25,18 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <div className="inline-flex items-center gap-2 bg-secondary px-4 py-2 rounded-full text-sm text-muted-foreground mb-6">
-              <MapPin className="w-4 h-4 text-primary" />
-              Kicukiro, Sonatube KN 869
+              <MapPin className="w-4 h-4 text-accent" />
+              Gisozi, Gakinjiro
             </div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Your Trusted <span className="text-gradient">Electronics</span> &amp; Software Partner
+              Quality <span className="text-gradient">Tools</span> &amp; <span className="text-accent">Hardware</span> You Can Trust
             </h1>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              Premium electronics, licensed software, and expert tech solutions. From devices to installations, WOKPICK delivers excellence.
+              Power tools, hand tools, construction supplies, and safety equipment. IMARA Tools delivers strength and reliability for every project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <a href="tel:+250781276077" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                <Phone className="w-5 h-5 text-primary" /> +250 781 276 077
-              </a>
-              <a href="mailto:sadarusha@gmail.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                <Mail className="w-5 h-5 text-primary" /> sadarusha@gmail.com
+              <a href="tel:+250787770451" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                <Phone className="w-5 h-5 text-primary" /> +250 787 770 451
               </a>
             </div>
           </div>
@@ -83,7 +80,7 @@ const HeroSection = () => {
                   <textarea
                     required
                     rows={3}
-                    placeholder="Tell us what you need..."
+                    placeholder="Tell us what tools or hardware you need..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full bg-input border border-border rounded-lg px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"

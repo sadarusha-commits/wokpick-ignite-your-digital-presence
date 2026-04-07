@@ -1,12 +1,12 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "What brands do you carry?", a: "We carry top brands including HP, Dell, Lenovo, Apple, Samsung, and many more. All products are genuine with manufacturer warranties." },
-  { q: "Do you offer installation services?", a: "Yes! We provide full installation for all electronics, software, security systems, and IT infrastructure. Our team handles everything from setup to configuration." },
-  { q: "What's your warranty policy?", a: "All products come with manufacturer warranty. We also offer extended warranty options and our own service guarantee on repairs and installations." },
-  { q: "Do you deliver across Rwanda?", a: "We offer same-day delivery within Kigali and next-day delivery to most locations across Rwanda. Shipping costs vary by location." },
-  { q: "Can you handle bulk/corporate orders?", a: "Absolutely! We specialize in corporate and institutional orders. Contact us for custom quotes and bulk pricing discounts." },
-  { q: "Do you provide after-sales support?", a: "Yes, we offer comprehensive after-sales support including technical assistance, maintenance, and troubleshooting. Reach us anytime at +250 781 276 077." },
+  { q: "What brands do you carry?", a: "We stock top brands including Bosch, DeWalt, Makita, Stanley, and more. All products are genuine with manufacturer warranties." },
+  { q: "Do you offer bulk pricing for contractors?", a: "Yes! We offer competitive bulk pricing for contractors and businesses. Contact us for custom quotes on large orders." },
+  { q: "Can I get tools delivered to my site?", a: "Absolutely. We offer same-day delivery within Kigali and can arrange delivery to construction sites across Rwanda." },
+  { q: "Do you provide after-sales support?", a: "Yes, all our tools come with warranty support. We also offer repair services and spare parts for major brands." },
+  { q: "What payment methods do you accept?", a: "We accept cash, mobile money (MTN MoMo, Airtel Money), bank transfers, and card payments." },
+  { q: "Do you have a return policy?", a: "Yes, we accept returns within 7 days for unused items in original packaging. Defective products are covered under warranty." },
 ];
 
 const FAQSection = () => (
